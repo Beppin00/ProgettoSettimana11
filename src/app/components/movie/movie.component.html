@@ -1,0 +1,25 @@
+<h1 class="bg-danger">Movies</h1>
+<div class="container mt-4">
+
+    <div class="row row-cols-4 g-3">
+        <div class="card bg-dark m-1 w-auto" *ngFor="let item of movies">
+            <img src="http://image.tmdb.org/t/p/w500{{item.poster_path}}" alt="">
+            <div class="card-body">
+                <div class="card-title text-white">
+                    {{item.title}}
+                </div>
+                <div class="card-text text-white">
+                    <!-- <a (click)="toggleFav(item.id)"><span *ngIf="!like"><i class="bi bi-heart"></i></span><span *ngIf="like"><i class="bi bi-heart-fill"></i></span></a> -->
+
+                    <!-- <a (click)="toggleFav(item.id)"><i *ngIf="like" [ngClass]="{'bi bi-heart-fill': like, 'bi bi-heart': !like}"></i> </a> -->
+                    <a class="" (click)="toggleFav(item.id)">
+                        <i class="bi" [ngClass]="{'bi-heart' : !item.like, 'bi-heart-fill': item.like }"></i>
+                    </a>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
