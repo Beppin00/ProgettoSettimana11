@@ -35,97 +35,94 @@
       "password": "$2a$10$Tau357Z.KeRddVxnbZo8J.IhIScK1YVYWrzWwIYTMT60EgGGKh6.6",
       "name": "Serena",
       "id": 6
+    },
+    {
+      "email": "sebastiano.lazzeri@gmail.com",
+      "password": "$2a$10$6ouDqXOJVqu4zQoOKpst7eCTe3DdNTo4IyGknbyO2PeuIJGAvbH0i",
+      "name": "Sebastiano",
+      "id": 7
+    },
+    {
+      "email": "angelo@angelo.com",
+      "password": "$2a$10$8ADsso9S5y09SB/lDr2/reP7gpbdZTys3XK2z9iB/98oSyJcEAjI6",
+      "name": "Angelo",
+      "id": 8
     }
   ],
   "favorites": [
     {
-      "movieId": 567189,
-      "userId": 2,
-      "id": 1
-    },
-    {
-      "movieId": 578701,
-      "userId": 2,
-      "id": 2
-    },
-    {
-      "movieId": 567189,
-      "userId": 1,
+      "userId": 5,
+      "movieId": 632357,
       "id": 3
     },
     {
-      "movieId": 578701,
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "userId": 5,
-      "movieId": 460465,
+      "userId": 7,
+      "movieId": 804435,
       "id": 5
     },
     {
-      "userId": 5,
-      "movieId": 460465,
+      "userId": 7,
+      "movieId": 578701,
       "id": 6
     },
     {
       "userId": 5,
-      "movieId": 460465,
+      "movieId": 567189,
       "id": 7
     },
     {
-      "userId": 5,
-      "movieId": 567189,
+      "userId": 8,
+      "movieId": 460465,
       "id": 8
     },
     {
-      "userId": 5,
+      "userId": 8,
       "movieId": 567189,
       "id": 9
     },
     {
-      "userId": 5,
-      "movieId": 567189,
+      "userId": 8,
+      "movieId": 632357,
       "id": 10
     },
     {
-      "userId": 5,
-      "movieId": 567189,
+      "userId": 8,
+      "movieId": 578701,
       "id": 11
     },
     {
-      "userId": 5,
-      "movieId": 567189,
+      "userId": 8,
+      "movieId": 399566,
       "id": 12
     },
     {
-      "userId": 5,
-      "movieId": 460465,
+      "userId": 8,
+      "movieId": 573680,
       "id": 13
     },
     {
-      "userId": 5,
-      "movieId": 460465,
+      "userId": 8,
+      "movieId": 808023,
       "id": 14
     },
     {
-      "userId": 5,
-      "movieId": 578701,
+      "userId": 8,
+      "movieId": 717192,
       "id": 15
     },
     {
-      "userId": 5,
-      "movieId": 578701,
+      "userId": 7,
+      "movieId": 567189,
       "id": 16
     },
     {
-      "userId": 5,
-      "movieId": 578701,
+      "userId": 7,
+      "movieId": 399566,
       "id": 17
     },
     {
-      "userId": 5,
-      "movieId": 460465,
+      "userId": 7,
+      "movieId": 573680,
       "id": 18
     }
   ],

@@ -11,6 +11,8 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { MovieComponent } from './components/movie/movie.component';
 import { InterceptorInterceptor } from './interceptors/interceptor.interceptor';
+import { ProfileComponent } from './components/profile/profile.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { InterceptorInterceptor } from './interceptors/interceptor.interceptor';
     NavbarComponent,
     LoginComponent,
     RegisterComponent,
-    MovieComponent
+    MovieComponent,
+    ProfileComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
